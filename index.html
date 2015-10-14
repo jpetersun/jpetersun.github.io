@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<title>Portfolio Site Final - James Peterson</title>
+    	<title>James Peterson - Web Developer</title>
 		<link href='https://fonts.googleapis.com/css?family=Ledger' rel='stylesheet'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="js/bootstrap.min.js">
@@ -13,10 +13,10 @@
 		<script src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/custom.css">
+		<link rel="shortcut icon" type="image/png" href="images_src/pngs/favicon-32x32.png" sizes="32x32" />
 	</head>
 <body>
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-6 title-logo">
 				<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -68,48 +68,53 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Featured Interest</h2>
+				<h2>Featured Projects</h2>
 			</div>
 		</div>
 
 		<div class="row text-center">
-			<div class="col-md-4 galaxy-top-edge">
+			<div class="col-md-4">
 				<picture>
 					<source
 						media="(min-width: 526px)"
-						srcset="images/galaxy-800_medium_1x.jpg 1x, images/galaxy-800_medium_2x.jpg 2x">
-					<img src="images/galaxy-400_small.jpg" data-toggle="modal" data-target="#interest1" class="img-responsive" alt="Galaxy">
+						srcset="images/arcade-game-800_medium_1x.jpg 1x, images/arcade-game-800_medium_2x.jpg 2x">
+					<img src="images/arcade-game-400_small.jpg" data-toggle="modal" data-target="#interest1" class="img-responsive" alt="Arcade Game">
 				</picture>
-				<h3>Galaxy</h3>
+				<h3>Arcade Game</h3>
 			</div>
 
 			<div class="col-md-4">
 				<picture>
 					<source
 						media="(min-width: 526px)"
-						srcset="images/golf-800_medium_1x.jpg 1x, images/golf-800_medium_2x.jpg 2x">
-					<img src="images/golf-400_small.jpg" data-toggle="modal" data-target="#interest2" class="img-responsive" alt="Golf course hole">
+						srcset="images/interactive-resume-800_medium_1x.jpg 1x, images/interactive-resume-800_medium_2x.jpg 2x">
+					<img src="images/interactive-resume-400_small.jpg" data-toggle="modal" data-target="#interest2" class="img-responsive" alt="Interactive Resume">
 				</picture>
-				<h3>Golf</h3>
+				<h3>Interactive Resume</h3>
 			</div>
 
 			<div class="col-md-4">
 				<picture>
 					<source
 						media="(min-width: 526px)"
-						srcset="images/yoga-800_medium_1x.jpg 1x, images/yoga-800_medium_2x.jpg 2x">
-						<img src="images/yoga-400_small.jpg" data-toggle="modal" data-target="#interest3" class="img-responsive" alt="Yoga pose">
+						srcset="images/web-perf-2-800_medium_1x.jpg 1x, images/web-perf-2-800_medium_2x.jpg 2x">
+						<img src="images/web-perf-2-400_small.jpg" data-toggle="modal" data-target="#interest3" class="img-responsive" alt="Web Performance">
 				</picture>
-				<h3>Yoga</h3>
+				<h3>Performance Optmization</h3>
 			</div>
 		</div>
 
+		<h4 class="text-center"><br>More projects coming soon...</h4>
+
 		<div class="col-md-12">
-			<div class="navbar">
-				<a href="http://facebook.com" class="fa fa-facebook-square fa-2x"></a>
-				<a href="http://twitter.com" class="fa fa-twitter fa-2x"></a>
-				<a href="http://googleplus.com" class="fa fa-google-plus fa-2x"></a>
-				<a href="http://reddit.com" class="fa fa-reddit fa-2x"></a>
+			<div class="navbar text-center">
+				<!-- <a href="http://facebook.com" class="fa fa-facebook-square fa-2x"></a> -->
+				<a href="http://twitter.com/JPetersonDev" class="fa fa-twitter fa-2x"></a>
+				<!--<a href="https://plus.google.com/105736297197132382947/posts" class="fa fa-google-plus fa-2x"></a>-->
+				<a href="https://github.com/jpetersun" class="fa fa-github fa-2x"></a>
+				<a href="https://www.linkedin.com/in/jpeterson903" class="fa fa-linkedin-square fa-2x"></a>
+				<a href="#resume" class="fa fa-file-text fa-2x"></a>
+				<!-- <a href="http://reddit.com" class="fa fa-reddit fa-2x"></a> -->
 			</div>
 		</div>
 	</div>
@@ -119,32 +124,34 @@
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Galaxy</h4>
+		        <h4 class="modal-title" id="myModalLabel1">Arcade Game</h4>
 		      </div>
 		      <div class="modal-body">
-		        <img class="img-responsive" src="images/galaxy-800_medium_2x.jpg">
-		        	<p>"People don't think the universe be like it is but it do." - Neil deGrasse Tyson</p>
+		        <img class="img-responsive" src="images/arcade-game-800_medium_2x.jpg">
+		        	<p><br>Just like the game of Frogger. Coded in JavaScript using the pseudo-classical pattern for player and enemies.</p>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-link"><a href="http://jpetersun.github.io/frontend-nanodegree-arcade-game">View Project</a></button>
 		      </div>
 		    </div>
 		  </div>
 		</div>
 
 <!-- Modal -->
-		<div class="modal fade" id="interest2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="interest2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Golf</h4>
+		        <h4 class="modal-title" id="myModalLabel2">Interactive Resume</h4>
 		      </div>
 		      <div class="modal-body">
-		        <img class="img-responsive" src="images/golf-800_medium_2x.jpg">
-		        	<p>"One minute you're bleeding. The next minute you're hemorrhaging. The next minute you're painting the Mona Lisa." - Mac O'Grady</p>
+		        <img class="img-responsive" src="images/interactive-resume-800_medium_2x.jpg">
+		        	<p><br>Coded an interactive resume with JavaScript and jQuery. It shows where I've lived and worked</p>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-link"><a href="#">View Project</a></button>
 		      </div>
 		    </div>
 		  </div>
@@ -155,14 +162,15 @@
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Yoga</h4>
+		        <h4 class="modal-title" id="myModalLabel3">Performance Optimization</h4>
 		      </div>
 		      <div class="modal-body">
-		        <img class="img-responsive" src="images/yoga-800_medium_2x.jpg">
-		        	<p>"Before you've practiced, the theory is useless. After you've practiced, the theory is obvious." - David Williams</p>
+		        <img class="img-responsive" src="images/web-perf-2-800_medium_2x.jpg">
+		        	<p><br>Optimized website to load under 1 second with a PageSpeed score above 90. Inlined critical CSS and asynchronously loaded JavaScript to eliminate render blocking.</p>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      	<button type="button" class="btn btn-link"><a href="#">View Project</a></button>
 		      </div>
 		    </div>
 		  </div>

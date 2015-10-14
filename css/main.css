@@ -13,7 +13,7 @@ h1 {
 
 h2,
 h3 {
-	color: #C12640;
+	color: #c12640;
 }
 
 hr {
@@ -36,9 +36,14 @@ svg {
 /*Social Icons*/
 
 a {
-	color: #e7e7e7;
 	margin: 10px;
 	padding: 0.5em;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c12640;
+	text-decoration: none;
 }
 
 /*Media Queries*/
@@ -62,4 +67,12 @@ a {
 	body {
 		font-size: 1.5em;
 	}
+}
+
+.fa {
+	color: #e7e7e7;
+}
+
+.btn-link > a {
+	color: #c12640;
 }
